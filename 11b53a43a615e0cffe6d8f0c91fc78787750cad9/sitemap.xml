@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/championship/mrs-wash/</loc>
+      <loc>/championship/mrs-wash/</loc>
       
         <lastmod>2015-12-04T00:00:00-05:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/championship/state-championship-2015/</loc>
+      <loc>/championship/state-championship-2015/</loc>
       
         <lastmod>2015-04-11T00:00:00-04:00</lastmod>
       
@@ -34,7 +34,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-07-09-post-left-sidebar/</loc>
+      <loc>/design/2014-07-09-post-left-sidebar/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -49,7 +49,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-07-10-breadcrumb/</loc>
+      <loc>/design/2014-07-10-breadcrumb/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -64,7 +64,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-07-10-page/</loc>
+      <loc>/design/2014-07-10-page/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -79,7 +79,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-07-10-post-right-sidebar/</loc>
+      <loc>/design/2014-07-10-post-right-sidebar/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -94,7 +94,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-08-19-page-fullwidth/</loc>
+      <loc>/design/2014-08-19-page-fullwidth/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -109,7 +109,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-09-10-portfolio/</loc>
+      <loc>/design/2014-09-10-portfolio/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -124,7 +124,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/grid/</loc>
+      <loc>/design/grid/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -139,7 +139,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-09-14-video/</loc>
+      <loc>/design/2014-09-14-video/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -154,7 +154,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-09-15-gallery/</loc>
+      <loc>/design/2014-09-15-gallery/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -169,7 +169,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-10-08-header-image-pattern/</loc>
+      <loc>/design/2014-10-08-header-image-pattern/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -184,7 +184,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-10-09-header-full-width-image/</loc>
+      <loc>/design/2014-10-09-header-full-width-image/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -199,7 +199,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-10-09-header-image-color/</loc>
+      <loc>/design/2014-10-09-header-image-color/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -214,7 +214,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2014-10-09-header-logo-only/</loc>
+      <loc>/design/2014-10-09-header-logo-only/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -229,7 +229,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2015-02-10-header-with-text/</loc>
+      <loc>/design/2015-02-10-header-with-text/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -244,7 +244,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2015-03-12-no-header-but-image/</loc>
+      <loc>/design/2015-03-12-no-header-but-image/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -259,7 +259,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2015-10-11-no-header/</loc>
+      <loc>/design/2015-10-11-no-header/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -274,7 +274,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2015-11-15-comments/</loc>
+      <loc>/design/2015-11-15-comments/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -289,7 +289,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/2015-11-16-typography/</loc>
+      <loc>/design/2015-11-16-typography/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -304,7 +304,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/404.html</loc>
+      <loc>/404.html</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -319,7 +319,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/about-frc/</loc>
+      <loc>/about-frc/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -334,7 +334,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/about/</loc>
+      <loc>/about/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -349,7 +349,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/archive/</loc>
+      <loc>/blog/archive/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -364,7 +364,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/changelog/</loc>
+      <loc>/changelog/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -379,7 +379,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/contact/</loc>
+      <loc>/contact/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -394,7 +394,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/design/</loc>
+      <loc>/design/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -409,7 +409,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/documentation/</loc>
+      <loc>/documentation/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -424,7 +424,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/donations/</loc>
+      <loc>/donations/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -439,7 +439,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/feed.xml</loc>
+      <loc>/feed.xml</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -454,7 +454,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/getting-started/</loc>
+      <loc>/getting-started/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -469,7 +469,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/headers/</loc>
+      <loc>/headers/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -484,7 +484,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/humans.txt</loc>
+      <loc>/humans.txt</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -499,7 +499,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/</loc>
+      <loc>/blog/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -514,7 +514,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -529,7 +529,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/posting/</loc>
+      <loc>/posting/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -544,7 +544,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/redirect-page/</loc>
+      <loc>/redirect-page/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -559,7 +559,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/roadmap/</loc>
+      <loc>/roadmap/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -574,7 +574,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/robots.txt</loc>
+      <loc>/robots.txt</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -589,7 +589,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/schedule/</loc>
+      <loc>/schedule/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -604,7 +604,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/search.json</loc>
+      <loc>/search.json</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -619,7 +619,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/search/</loc>
+      <loc>/search/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -634,7 +634,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/sitemap.xml</loc>
+      <loc>/sitemap.xml</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -649,7 +649,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/sponsorship/</loc>
+      <loc>/sponsorship/</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
@@ -664,7 +664,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/assets/css/styles_feeling_responsive.css</loc>
+      <loc>/assets/css/styles_feeling_responsive.css</loc>
       
         <lastmod>2018-07-06T11:31:32-04:00</lastmod>
       
