@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FRC Team 4405</title>
+    <description>»The Atoms Family is an FRC team located in Canton, MI, which strives to promote the values of FIRST and STEM in our school and community</description>
+    <link>https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/</link>
+    <atom:link href="https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Mrs. Wash</title>
+        <description>&lt;p&gt;Getting excited about the upcoming season!&lt;/p&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Dec 2015 00:00:00 -0500</pubDate>
+        <link>https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/championship/mrs-wash/</link>
+        <guid isPermaLink="true">https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/championship/mrs-wash/</guid>
+      </item>
+    
+      <item>
+        <title>2015 State Championship!</title>
+        <description>&lt;p&gt;We had lots of fun in Grand Rapids this weekend at the FIM State Championship. Along with lots of Recycle Rush, the governor Rick Snyder and FIRST founder Dean Kamen came by and signed our banners from our previous District events. Thank you Mr. Snyder for supporting FIRST Robotics and “Making it Loud”! We played very well, especially in our last few matches and despite not getting picked, we still preformed well enough in the qualification matches to make it to the World Championship! St. Louis, here we come!&lt;/p&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 11 Apr 2015 00:00:00 -0400</pubDate>
+        <link>https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/championship/state-championship-2015/</link>
+        <guid isPermaLink="true">https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/championship/state-championship-2015/</guid>
+      </item>
+    
+  </channel>
+</rss>

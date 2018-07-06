@@ -1,0 +1,5 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+Sitemap: https://test.matson.io/28e861e7879aa46cd3b55a4d9783a5a428a46d15/sitemap.xml
