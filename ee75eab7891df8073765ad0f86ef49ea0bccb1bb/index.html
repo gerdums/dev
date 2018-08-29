@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <title>Plymouth Christian Academy</title>
+        <!-- CSS Plugins -->
+        <link href="assets/plugins/lightbox/dist/css/lightbox.css" rel="stylesheet">
+        <link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/plugins/owl-carousel/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/plugins/owl-carousel/dist/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+        <!-- CSS Global -->
+        <!--build:css assets/css/theme.min.css-->
+        <link rel="stylesheet" href="assets/css/theme.css">
+				<!--endbuild-->
+				<style>
+					.navbar-brand {
+						padding: 0px;
+					}
+					.navbar-brand>img {
+						height: 100%;
+						padding-top: 15px;
+						padding-right: 5px;
+						padding-bottom: 5px;
+						padding-left: 5px;
+						width: auto;
+					}	
+					.nav >li >a {
+						padding-top: 30px;
+						padding-bottom: 30px;
+					}
+					.navbar-toggle {
+						padding: 10px;
+						margin: 25px 15px 25px 0;
+					}	
+				</style>
+    </head>
+    <body id="index__page">
+        <!-- Back to top button
+    ================================================== -->
+        <a id="back-to-top" href="#section__home" class="btn btn-primary back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"> <i class="ion-android-arrow-up"></i> </a>
+        <!-- PRELOADER
+    ================================================== -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+        <!-- Navbar
+    ================================================== -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Header -->
+                <div class="navbar-header">
+                    <!-- Collapse toggle -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar__collapse" aria-expanded="false">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="" style="padding-top: 0px;"><img id="logo" class="img-responsive" src="assets/img/logo-white.png"> </a>
+                </div>                 
+
+                <!-- / .navbar-header -->
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbar__collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active">
+                            <a href="">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <i class="ion-android-arrow-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="">Courses page</a>
+                                </li>
+                                <li>
+                                    <a href="">Single course</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Life <i class="ion-android-arrow-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="">Item 1</a>
+                                </li>
+                                <li>
+                                    <a href="">Item 2</a>
+                                </li>
+                                <li>
+                                    <a href="">Item 3</a>
+                                </li>
+                            </ul>
+												</li>
+												<li>
+                            <a href="#">News & Events</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i>Log In</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <!-- Search toggle -->
+                            <a href="#" class="navbar-search__toggle"> <i class="ion-search"></i> </a>
+                            <!-- Search form -->
+                            <div class="navbar-search">
+                                <form>
+                                    <!-- Input -->
+                                    <div class="navbar-search__box">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <span class="input-group-btn"> <button type="submit" class="btn btn-accent">
+                                                    <i class="ion-search"></i>
+                                                </button> </span>
+                                        </div>
+                                    </div>                                     
+
+                                    <!-- / .navbar-search__box -->
+                                </form>
+                            </div>                             
+
+                            <!-- / .navbar-search -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+				</nav>
+				
+        <!-- CONTENT
+      ================================================== -->
+        <!-- SIGNIN MODAL
+      ================================================== -->
+        <div class="modal fade" id="signinModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Sign In</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="body-signin__form">
+                                    <!-- Sign In form -->
+                                    <form class="signin__form">
+                                        <!-- Email -->
+                                        <div class="form-group">
+                                            <label for="sign-in__email" class="sr-only">Enter email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="ion-android-person"></i></span>
+                                                <input type="email" class="form-control" id="sign-in__email" placeholder="Enter email">
+                                            </div>
+                                        </div>
+                                        <!-- Password -->
+                                        <div class="form-group">
+                                            <label for="sign-in__password" class="sr-only">Enter password</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="ion-locked"></i></span>
+                                                <input type="password" class="form-control" id="sign-in__password" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-accent btn-block">Submit</button>
+                                    </form>
+                                        </form>
+                                    </div>                                     
+
+                                    <!-- lost-password__form -->
+                                </div>                                 
+
+                                <!-- / .body-signin__form -->
+                            </div>
+                        </div>                         
+
+                        <!-- / .row -->
+                    </div>                     
+
+                    <!-- / .modal-body -->
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <section class="section__home" id="section__home">
+            <div class="container home__body">
+                <div class="row">
+                    <div class="col-sm-10 col-md-6">
+                        
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+            </div>             
+
+            <!-- / .container -->
+            <div class="container home__footer">
+                <div class="row">
+                    <div class="col-sm-10 col-md-6">
+												<div class="home__content">
+                            <!-- Title -->
+                            <h3 class="home__title">
+                Plymouth Christian Academy </h3>
+                            <!-- Heading -->
+                            <!-- Info -->
+                            <p class="home__info">
+															Educating students from preschool through 12th grade for lives of learning, leadership and service.</p>
+                            <!-- Button -->
+                            <div class="home__btn">
+                                <a href="#section__about" class="btn btn-primary">
+                  Learn more </a>
+                            </div>
+                        </div>                         
+                        <!-- / .home__content -->
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <!-- Social icons -->
+                        <ul class="home__social">
+                            <li>
+                                <a href=""><i class="ion-social-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ion-social-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ion-social-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+            </div>             
+
+            <!-- / .container -->
+            <!-- Background image -->
+            <div class="home__bg"></div>
+        </section>         
+
+        <!-- .section__home -->
+        <!-- section about -->
+        <section class="section__about" id="section__about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="about__body">
+                            <div class="about__icon">
+                                <img width="40%" src="assets/img/logo_sm.png">
+                            </div>
+                            <div class="section__subtitle dark__subtitle">
+                                Welcome to 
+
+                                <span>PCA</span>
+                            </div>
+                            <h2 class="section__title dark__title">
+	    					About us </h2>
+                            <p class="about__desc">
+																Plymouth Christian Academy, in partnership with parents, educates students from a biblical worldview and equips them for a lifetime of <i>learning</i>, <i>leadership</i> and <i>service</i>. Our purpose is to produce students matured in their love for God, steeped in His word, educated about His world, dedicated to lives of service and learning, and prepared to fulfill their calling in His kingdom.</p> 
+                            <!-- / .about__desc -->
+                            <div class="about__quote">
+                                <h2 class="about_quote__text"><i class="ion-quote"></i> PCA offers a unique combination of academic excellence and a family atmosphere, all rooted in the gospel of Jesus Christ.  <span class="quote_end"><i class="ion-quote"></i></span></h2>
+                                <p class="about_quote__author"> <span>Caryn Hunstman</span> / Superintendent </p> 
+                            </div>                             
+
+                            <!-- / .about__quote -->
+                            <a href="" class="btn btn-accent">More About PCA</a>
+                        </div>                         
+
+                        <!-- / .about__body -->
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+            </div>             
+
+            <!-- / .container -->
+        </section>         
+
+				<!-- .section__about -->
+				 <!-- section stats -->
+				 <section class="section__stats">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-6 col-md-3">
+									<div class="stat__item">
+										<div class="stats_item__icon">
+											<i class="ion-person-stalker" aria-hidden="true"></i>
+										</div>
+										<div class="stats_item__nbr" data-from="0" data-to="28" data-speed="5000" data-refresh-interval="20">
+											0
+										</div>
+										<div class="stats_item__text">
+											Best teachers
+										</div>
+									</div> <!-- / .stat__item -->
+								</div>
+								<div class="col-sm-6 col-md-3">
+									<div class="stat__item">
+										<div class="stats_item__icon">
+											<i class="ion-ios-bookmarks" aria-hidden="true"></i>
+										</div>
+										<div class="stats_item__nbr" data-from="0" data-to="95" data-speed="5000" data-refresh-interval="60">
+											0
+										</div>
+										<div class="stats_item__text">
+											Graduation rate
+										</div>
+									</div> <!-- / .stat__item -->
+								</div>
+								<div class="col-sm-6 col-md-3">
+									<div class="stat__item">
+										<div class="stats_item__icon">
+											<i class="ion-university" aria-hidden="true"></i>
+										</div>
+										<div class="stats_item__nbr" data-from="0" data-to="267" data-speed="5000" data-refresh-interval="70">
+											0
+										</div>
+										<div class="stats_item__text">
+											Happy students
+										</div>
+									</div> <!-- / .stat__item -->
+								</div>
+								<div class="col-sm-6 col-md-3">
+									<div class="stat__item">
+										<div class="stats_item__icon">
+											<i class="ion-ribbon-b" aria-hidden="true"></i>
+										</div>
+										<div class="stats_item__nbr" data-from="0" data-to="12" data-speed="5000" data-refresh-interval="10">
+											0
+										</div>
+										<div class="stats_item__text">
+											Award Winning
+										</div>
+									</div> <!-- / .stat__item -->
+								</div>
+							</div> <!-- / .row -->
+						</div> <!-- / .container -->
+					</section>
+					<section class="section__blog">
+							<div class="container">
+									<div class="row">
+											<div class="col-sm-12">
+													<div class="section_title__body">
+															<div class="section__subtitle dark__subtitle">
+																	What's new at  
+	
+																	<span>school</span>
+															</div>
+															<h2 class="section__title dark__title">
+									Latest News </h2>
+															<!-- / .section_title__desc -->                             
+													</div>                         
+	
+													<!-- / .section_title__body  -->
+											</div>
+									</div>  
+								<div class="row">
+									<div class="col-sm-6 col-md-4">  	    	
+										<div class="blog__item" data-aos="zoom-in-up">
+											<div class="blog-item__img">
+												<img src="assets/img/blog_img-1.jpg" class="img-responsive" alt="...">
+											</div>
+											<div class="blog-item__tags">
+												<i class="ion-ios-pricetags" aria-hidden="true"></i> <a href="#">#study</a> <a href="#">#LCTRS</a> <a href="#">#conference</a>
+											</div>
+											<div class="blog-item__content">
+												<div class="blog-item__date">
+													<i class="ion-calendar" aria-hidden="true"></i> 09 October 2017
+												</div>
+												<div class="blog-item__title">
+													<h3>New courses realised</h3>
+												</div>
+												<div class="blog-item__info">
+													<ul class="item-info__list">
+														<li class="info-list__item"><i class="ion-android-person" aria-hidden="true"></i> by John Doe</li>
+														<li class="info-list__item"><i class="ion-android-chat" aria-hidden="true"></i> 36</li>
+														<li class="info-list__item"><i class="ion-heart" aria-hidden="true"></i> 246</li>
+													</ul>
+												</div>
+												<div class="blog-item__text">
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eius dicta, magni, placeat sed excepturi tenetur. Unde esse repellendus saepe ipsa odio in laborum voluptas. Obcaecati quae.
+												</div>
+												<div class="blog-item__link">
+													<a href="blog-item.html">Read More <i class="ion-android-arrow-forward" aria-hidden="true"></i></a>
+												</div>
+												<ul class="blog-item__share">
+													<li>Share: </li>
+													<li><a href=""><i class="ion-social-twitter"></i></a></li>
+													<li><a href=""><i class="ion-social-facebook"></i></a></li>
+													<li><a href=""><i class="ion-social-googleplus"></i></a></li>
+												</ul>
+											</div> <!-- / .blog-item__content -->
+										</div> <!-- / .blog__item -->
+									</div>
+									<div class="col-sm-6 col-md-4">  	    	
+										<div class="blog__item" data-aos="zoom-in-up">
+											<div class="blog-item__img">
+												<img src="assets/img/blog_img-2.jpg" class="img-responsive" alt="...">
+											</div>
+											<div class="blog-item__tags">
+												<i class="ion-ios-pricetags" aria-hidden="true"></i> <a href="#">#study</a> <a href="#">#LCTRS</a> <a href="#">#conference</a>
+											</div>
+											<div class="blog-item__content">
+												<div class="blog-item__date">
+													<i class="ion-calendar" aria-hidden="true"></i> 15 October 2017
+												</div>
+												<div class="blog-item__title">
+													<h3>LCTRS conference 2017</h3>
+												</div>
+												<div class="blog-item__info">
+													<ul class="item-info__list">
+														<li class="info-list__item"><i class="ion-android-person" aria-hidden="true"></i> by John Doe</li>
+														<li class="info-list__item"><i class="ion-android-chat" aria-hidden="true"></i> 85</li>
+														<li class="info-list__item"><i class="ion-heart" aria-hidden="true"></i> 125</li>
+													</ul>
+												</div>
+												<div class="blog-item__text">
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eius dicta, magni, placeat sed excepturi tenetur. Unde esse repellendus saepe ipsa odio in laborum voluptas. Obcaecati quae.
+												</div>
+												<div class="blog-item__link">
+													<a href="blog-item.html">Read More <i class="ion-android-arrow-forward" aria-hidden="true"></i></a>
+												</div>
+												<ul class="blog-item__share">
+													<li>Share: </li>
+													<li><a href=""><i class="ion-social-twitter"></i></a></li>
+													<li><a href=""><i class="ion-social-facebook"></i></a></li>
+													<li><a href=""><i class="ion-social-googleplus"></i></a></li>
+												</ul>
+											</div> <!-- / .blog-item__content -->
+										</div> <!-- / .blog__item -->
+									</div>
+									<div class="col-sm-12 col-md-4">  	    	
+										<div class="blog__item" data-aos="zoom-in-up">
+											<div class="blog-item__img">
+												<img src="assets/img/blog_img-3.jpg" class="img-responsive" alt="...">
+											</div>
+											<div class="blog-item__tags">
+												<i class="ion-ios-pricetags" aria-hidden="true"></i> <a href="#">#learn</a> <a href="#">#design</a> <a href="#">#courses</a>
+											</div>
+											<div class="blog-item__content">
+												<div class="blog-item__date">
+													<i class="ion-calendar" aria-hidden="true"></i> 03 November 2017
+												</div>
+												<div class="blog-item__title">
+													<h3>Obtaining certificates</h3>
+												</div>
+												<div class="blog-item__info">
+													<ul class="item-info__list">
+														<li class="info-list__item"><i class="ion-android-person" aria-hidden="true"></i> by John Doe</li>
+														<li class="info-list__item"><i class="ion-android-chat" aria-hidden="true"></i> 133</li>
+														<li class="info-list__item"><i class="ion-heart" aria-hidden="true"></i> 591</li>
+													</ul>
+												</div>
+												<div class="blog-item__text">
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eius dicta, magni, placeat sed excepturi tenetur. Unde esse repellendus saepe ipsa odio in laborum voluptas. Obcaecati quae.
+												</div>
+												<div class="blog-item__link">
+													<a href="blog-item.html">Read More <i class="ion-android-arrow-forward" aria-hidden="true"></i></a>
+												</div>
+												<ul class="blog-item__share">
+													<li>Share: </li>
+													<li><a href=""><i class="ion-social-twitter"></i></a></li>
+													<li><a href=""><i class="ion-social-facebook"></i></a></li>
+													<li><a href=""><i class="ion-social-googleplus"></i></a></li>
+												</ul>
+											</div> <!-- / .blog-item__content -->
+										</div> <!-- / .blog__item -->
+									</div>
+								</div></div> <!-- / .container -->
+							</section>
+        <!-- .section__footer -->
+        <!-- section teachers -->       
+        <!-- .section__footer -->
+
+        <!-- section instagram -->
+        <section class="section__instagram">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section__subtitle instagram__title">
+                            Follow 
+
+                            <span>@PCA</span> on Instagram
+                        </div>
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+                <div class="row">
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="intagram_img__body">
+                            <a href="#" class="insagram__img">
+                                <img src="assets/img/instagram_img-1.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="intagram_img__body">
+                            <a href="#" class="insagram__img">
+                                <img src="assets/img/instagram_img-2.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="intagram_img__body">
+                            <a href="#" class="insagram__img">
+                                <img src="assets/img/instagram_img-3.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="intagram_img__body">
+                            <a href="#" class="insagram__img">
+                                <img src="assets/img/instagram_img-4.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="intagram_img__body">
+                            <a href="#" class="insagram__img">
+                                <img src="assets/img/instagram_img-5.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="intagram_img__body">
+                            <a href="#" class="insagram__img">
+                                <img src="assets/img/instagram_img-6.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+            </div>             
+
+            <!-- / .container -->
+        </section>         
+
+        <!-- .section__footer -->
+        <!-- section footer -->
+        <footer class="section__footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="footer_title__body">
+                            <h2 class="footer__title">
+	    					<img src="assets/img/logo_sm.png" width="40%"> </h2>
+                            <div class="footer__subtitle">
+                                Plymouth Christian Academy
+</div>
+                            <ul class="footer__social">
+                                <li>
+                                    <a href=""><i class="ion-social-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="ion-social-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="ion-social-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="ion-social-instagram-outline"></i></a>
+                                </li>
+                            </ul>
+                        </div>                         
+
+                        <!-- / .footer_title__body -->
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <ul class="footer-links__list">
+                            <li>
+                                <a href=""><i class="ion-ios-arrow-forward"></i> Site Map</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ion-ios-arrow-forward"></i> Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ion-ios-arrow-forward"></i> Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ion-ios-arrow-forward"></i> Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="newsletter__body">
+                            <p class="newsletter__subtitle">Subscribe to our newsletter to get news.</p>
+                            <!-- Newsletter form -->
+                            <div id="mc_embed_signup">
+                                <form class="footer__form validate" >
+                                    <div id="mc_embed_signup_scroll">
+                                        <div class="mc-field-group form-group">
+                                            <label for="mce-EMAIL" class="sr-only">E-mail address</label>
+                                            <input type="email" value="" name="EMAIL" class="required email form-control newsletter_input" id="mce-EMAIL" placeholder="Email address">
+                                        </div>
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response"></div>
+                                            <div class="response" id="mce-success-response"></div>
+                                        </div>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div aria-hidden="true" id="mce-hidden-input">
+                                            <input type="text" name="b_507744bbfd1cc2879036c7780_4523d25e1b" tabindex="-1" value="">
+                                        </div>
+                                        <div class="clear">
+                                            <button type="submit" class="btn btn-newsletter" id="mc-embedded-subscribe">
+                                                <i class="ion-android-arrow-forward"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>                             
+
+                            <!-- #mc_embed_signup -->
+                        </div>                         
+
+                        <!-- / .newsletter__body -->
+                        
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+            </div>             
+
+            <!-- / .container -->
+        </footer>         
+
+        <!-- .section__footer -->
+        <!-- section footer copyright -->
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
+                        <ul class="quick__links">
+                            <li>| 
+                                <a href="">Home</a> |
+                            </li>
+                            <li>
+                                <a href="">About</a> |
+                            </li>
+                            <li>
+                                <a href="">Courses</a> |
+                            </li>
+                            <li>
+                                <a href="">Blog</a> |
+                            </li>
+                            <li>
+                                <a href="">Contact</a> |
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-6 col-md-pull-6">
+                        <div class="copyright__content">
+                            <p>&#169; 2018 Plymouth Christian Academy</p>
+                        </div>
+                    </div>
+                </div>                 
+
+                <!-- / .row -->
+            </div>             
+
+            <!-- / .container -->
+        </div>         
+
+        <!-- / .footer__copyright -->
+        <!-- JS Global -->
+        <script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- JS Plugins -->
+        <script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="assets/plugins/lightbox/dist/js/lightbox.min.js"></script>
+        <script src="assets/plugins/owl-carousel/dist/owl.carousel.min.js"></script>
+        <script src="assets/plugins/countTo/jquery.countTo.js"></script>
+        <script src="assets/plugins/countdown/jquery.countdown.min.js"></script>
+        <script src="assets/plugins/aos-master/dist/aos.js"></script>
+        <script src="assets/plugins/contact/contact.js"></script>
+        <script src="assets/plugins/smothscroll/smoothscroll.js"></script>
+        <!-- JS Custom -->
+        <!--build:js assets/js/theme.min.js -->
+        <script src="assets/js/theme.js"></script>
+        <!-- endbuild -->
+        <script src="assets/js/google_maps.js"></script>
+        <!-- Google Maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfwXIv2vgXzFDZRzzRH2VpbvgSzhqCCuU&amp;callback=initMap" async defer></script>
+    </body>
+</html>
